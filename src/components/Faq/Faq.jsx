@@ -1,4 +1,4 @@
-// Faq Component
+// FAQ Component
 import React, { useState } from 'react';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -20,7 +20,7 @@ const Faq = () => {
     };
 
     return (
-        <section className="relative w-full md:w-[80%] h-auto mt-[100px] mx-auto pb-[200px] z-10"> {/* Extra padding added */}
+        <section className="relative w-full md:w-[80%] h-auto mt-[100px] mx-auto pb-0 sm:pb-[200px] z-10">
             <h1 className="text-[#07051D] font-semibold text-3xl mb-8 ml-[20px] lg:ml-[20px]">
                 Frequently Asked Questions
             </h1>

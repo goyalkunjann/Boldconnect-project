@@ -25,17 +25,17 @@ const Iconsconnect = () => {
         <div className="absolute w-[500px] h-[500px] rounded-full border border-[#C6C3D4]"></div>
         <div className="absolute w-[400px] h-[400px] rounded-full border border-[#C6C3D4]"></div>
         
-        <img src={linkedinIcon} alt="LinkedIn" className="w-20 h-20 absolute top-[2%] left-[30%] wiggle-animation" />
-        <img src={whatsappIcon} alt="WhatsApp" className="w-20 h-20 absolute top-[15%] left-[-2%] wiggle-animation" />
-        <img src={messageIcon} alt="Message" className="w-20 h-20 absolute top-[0%] right-[20%] wiggle-animation" />
-        <img src={gmailIcon} alt="Gmail" className="w-20 h-20 absolute bottom-[50%] left-[12%] wiggle-animation" />
-        <img src={netflixIcon} alt="Netflix" className="w-20 h-20 absolute top-[10%] right-[40%] wiggle-animation" />
-        <img src={phoneIcon} alt="Phone" className="w-20 h-20 absolute top-[55%] left-[87%] wiggle-animation" />
-        <img src={calendarIcon} alt="Calendar" className="w-20 h-20 absolute top-[32%] right-[10%] wiggle-animation" />
-        <img src={slackIcon} alt="Slack" className="w-20 h-20 absolute bottom-[28%] left-[5%] wiggle-animation" />
-        <img src={twitterIcon} alt="Twitter" className="w-20 h-20 absolute bottom-[17%] right-[20%] wiggle-animation" />
-        <img src={zapierIcon} alt="Zapier" className="w-20 h-20 absolute bottom-[5%] left-[38%] wiggle-animation" />
-        <img src={outlookIcon} alt="Outlook" className="w-20 h-20 absolute bottom-[7%] left-[5%] wiggle-animation" />
+        <img src={linkedinIcon} alt="LinkedIn" className="icon absolute w-20 h-20 top-[2%] left-[30%] transform -rotate-15 gentle-wiggle" />
+        <img src={whatsappIcon} alt="WhatsApp" className="icon absolute w-20 h-20 top-[15%] left-[-2%] transform -rotate-15 gentle-wiggle" />
+        <img src={messageIcon} alt="Message" className="icon absolute w-20 h-20 top-[0%] right-[20%] gentle-wiggle" />
+        <img src={gmailIcon} alt="Gmail" className="icon absolute w-20 h-20 bottom-[50%] left-[12%] gentle-wiggle" />
+        <img src={netflixIcon} alt="Netflix" className="icon absolute w-20 h-20 top-[10%] right-[40%] gentle-wiggle" />
+        <img src={phoneIcon} alt="Phone" className="icon absolute w-20 h-20 top-[55%] left-[87%] gentle-wiggle" />
+        <img src={calendarIcon} alt="Calendar" className="icon absolute w-20 h-20 top-[32%] right-[10%] gentle-wiggle" />
+        <img src={slackIcon} alt="Slack" className="icon absolute w-20 h-20 bottom-[28%] left-[5%] transform -rotate-15 gentle-wiggle" />
+        <img src={twitterIcon} alt="Twitter" className="icon absolute w-20 h-20 bottom-[17%] right-[20%] transform -rotate-20 gentle-wiggle" />
+        <img src={zapierIcon} alt="Zapier" className="icon absolute w-20 h-20 bottom-[5%] left-[38%] transform rotate-15 gentle-wiggle" />
+        <img src={outlookIcon} alt="Outlook" className="icon absolute w-20 h-20 bottom-[7%] left-[5%] transform -rotate-15 gentle-wiggle" />
       </div>
     </div>
   );

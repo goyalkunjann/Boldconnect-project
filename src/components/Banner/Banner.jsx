@@ -4,7 +4,7 @@ import Emailinput from '../Home/Emailinput/Emailinput';
 
 const Banner = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-[#0B66C2] w-[80%] h-[80vh] mx-auto rounded-lg shadow-lg pt-30 mt-[700px] z-20">
+    <div className="hidden sm:flex flex-col items-center justify-center bg-[#0B66C2] w-[80%] h-[80vh] mx-auto rounded-lg shadow-lg pt-30 mt-[500px] z-20">
       {/* Logo & Heading */}
       <h1 className="text-[#EBEBEB] font-bold text-5xl text-center mb-6">
         Automate Your Networking with <br />

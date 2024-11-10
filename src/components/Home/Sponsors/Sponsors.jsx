@@ -19,7 +19,7 @@ const iconData = [
 
 const Sponsors = () => {
   return (
-    <div className="flex flex-row justify-between gap-20 items-center mx-10 my-20">
+    <div className="flex flex-wrap justify-center gap-10 items-center mx-5 my-10 md:gap-20 md:mx-10 md:my-20">
       {iconData.map((icon, index) => (
         <img
           key={index}
